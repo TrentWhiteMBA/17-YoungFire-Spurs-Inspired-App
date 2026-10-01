@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-anton: "Anton", sans-serif;
+  --font-barlow: "Barlow Condensed", sans-serif;
+  --font-condensed: "Barlow Condensed", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-outfit: "Outfit", sans-serif;
+}
+
+@layer utilities {
+  .font-anton {
+    font-family: 'Anton', sans-serif;
+  }
+  .font-barlow {
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  .font-condensed {
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .font-outfit {
+    font-family: 'Outfit', sans-serif;
+  }
+  .font-pro-display {
+    font-family: 'Anton', 'Barlow Condensed', 'Outfit', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  .font-pro-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+  }
+}
